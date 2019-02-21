@@ -7,7 +7,7 @@ First clone the repository project `https://github.com/Linaerith/3-musketeers`
 ❯ git clone git@github.com:YOUR_USERNAME/3-musketeers.git
 ```
 
-Run these following command lines to install the cash project.
+Run these following command lines to install the cash project. Do it just at the first use of the project.
 
 ```sh
 ❯ cd /path/to/workspace/3-musketeers/cash
