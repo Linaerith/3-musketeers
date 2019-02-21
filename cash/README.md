@@ -39,6 +39,3 @@ Here an example of its use:
 ❯ node bin/index.js -s eur gbp
 ```
 When you're done changing the default currencies, if you run the index.js file, you will get the conversion of 1 Euro to British Pound Sterling.
-
-
-add JSDOC function block for the file cash/bin/cash.js

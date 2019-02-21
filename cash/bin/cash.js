@@ -8,6 +8,14 @@ const currencies = require('../lib/currencies.json');
 
 const {API} = require('./constants');
 
+/**
+ * Set the shoe's color.
+ *
+ * @param {int} amount - The amount we want to convert.
+ * @param {string} from - The original currency of the amount we want to convert.
+ * @param {string} to - The currency in which we want to convert the amount. We can have here multiple currencies.
+ */
+
 const cash = async command => {
 	const {amount} = command;
 	const from = command.from.toUpperCase();
