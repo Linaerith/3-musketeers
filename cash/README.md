@@ -1,13 +1,13 @@
 # cash
 
-First clone your repository project `https://github.com/Linaerith/3-musketeers`
+First clone the repository project `https://github.com/Linaerith/3-musketeers`
 
 ```sh
 ❯ cd /path/to/workspace
 ❯ git clone git@github.com:YOUR_USERNAME/3-musketeers.git
 ```
 
-Then, run these following command lines to install the cash project.
+Run these following command lines to install the cash project.
 
 ```sh
 ❯ cd /path/to/workspace/3-musketeers/cash
@@ -24,11 +24,21 @@ In order to convert any currency to other currencies, run this line. You can hav
 ```sh
 ❯ node bin/index.js <amount> <from> <to>
 ```
-For instance, if you want to convert 10 US Dollars to Euro and Polish Zloty, here is what you have to run: 
+For instance, if you want to convert 10 US Dollars to Euro and Polish Zloty, here is what you have to run:
 ```sh
 ❯ node bin/index.js 10 usd eur pln
 ```
 
+You can also change the default used currencies by using this following command line:
+```sh
+❯ node bin/index.js -s <from> <to>
+```
 
-Complete the cash/README.md file with a complete description of installation, usage... of the library
+Here an example of its use:
+```sh
+❯ node bin/index.js -s eur gbp
+```
+When you're done changing the default currencies, if you run the index.js file, you will get the conversion of 1 Euro to British Pound Sterling.
+
+
 add JSDOC function block for the file cash/bin/cash.js
